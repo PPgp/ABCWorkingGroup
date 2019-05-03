@@ -8,7 +8,7 @@
 #SBATCH -o ./logs/main.out 
 #SBATCH -e ./logs/main.out
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=nwelch@uw.edu
+#SBATCH --mail-user=<yourEmail>@uw.edu
 
 sampleSize=5e1
 resultsFile="./results/mainOutput"
